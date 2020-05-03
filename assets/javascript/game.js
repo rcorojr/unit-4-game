@@ -21,6 +21,9 @@ var guesstot = 0;
 
 
 
+
+
+
 //onclick events for buttons to add ot the guess total
 $('#green').click(function() {
 guesstot = guesstot + green
@@ -33,7 +36,9 @@ if (guesstot === randNum){
 $('#pink').click(function() {
 guesstot = guesstot + pink
 $('#guesstot').text(guesstot);
-if (guesstot === randNum)
+if (guesstot === randNum){
+
+}
 })
 
 $('#unique').click(function() {
@@ -53,4 +58,9 @@ if (guesstot === randNum){
 
 })
 
+function win ()
+
+function lose ()
+
 //finish if/else statements to recognize a win and a loss. wins and losses need to increase by one
+//
